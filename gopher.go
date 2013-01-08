@@ -2,17 +2,19 @@ package goplus
 
 import (
 	"net/http"
+
+	// Import appengine urlfetch package, that is needed to make http call to the api
+	"appengine"
+	"appengine/urlfetch"
+
 	// Import google api go client library
 	"code.google.com/p/google-api-go-client/googleapi/transport"
 	// Import Google+ package, the package will be named "plus"
 	"code.google.com/p/google-api-go-client/plus/v1"
-	// Import appengine urlfetch package, that is needed to make http call to the api
-	"appengine"
-	"appengine/urlfetch"
 )
 
 // gopherFallback is the official gopher URL (in case we don't find any in the Google+ stream)
-var gopherFallback = "http://golang.org/doc/gopher/gophercolor.png"
+const gopherFallback = "http://golang.org/doc/gopher/gophercolor.png"
 
 // init is called before the application start
 func init() {
