@@ -66,6 +66,6 @@ func gopher(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 	}
-	// Fallback on the official gopher if we didn't found any gophers in the stream
+	// Fallback on the official gopher if we didn't find any gophers in the stream
 	http.Redirect(w, r, gopherFallback, http.StatusFound)
 }
