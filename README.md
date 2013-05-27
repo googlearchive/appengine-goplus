@@ -24,6 +24,6 @@ Google APIs using the Go programming language.
 [2]: https://developers.google.com/appengine/docs/go/overview
 [3]: https://developers.google.com/+/
 [4]: http://golang.org
-[5]: https://developers.google.com/appengine/docs/python/urlfetch
+[5]: https://developers.google.com/appengine/docs/go/urlfetch/overview
 [6]: https://developers.google.com/+/api/latest/activities/search
 [7]: https://code.google.com/p/google-api-go-client/
