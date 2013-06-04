@@ -6,19 +6,16 @@ recent "Gopher" image from the Google+ public stream.
 It shows how to build a simple App Engine web application that call
 Google APIs using the Go programming language.
 
-## Products
-- [App Engine][1] [Go Runtime][2]
-- [Google+ Platform][3]
-
-## Language
-- [Go][4]
-
 ## APIs
-- [Urlfetch][5]
-- [Google+ Activities Search API][6]
+- [App Engine][1] [Go Runtime][2]
+- [Urlfetch API][5]
+- [Google+][3] [Activities Search API][6]
 
 ## Dependencies
 - [Google APIs Client Library for Go][7]
+
+## Language
+- [Go][4]
 
 [1]: https://developers.google.com/appengine
 [2]: https://developers.google.com/appengine/docs/go/overview
