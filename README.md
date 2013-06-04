@@ -1,6 +1,6 @@
-# appengine-plus-go
+# appengine-goplus
 
-This sample application has a simple purpose: displaying the most
+`goplus` is a sample application with a simple purpose: displaying the most
 recent "Gopher" image from the Google+ public stream.
 
 It shows how to build a simple App Engine web application that call
