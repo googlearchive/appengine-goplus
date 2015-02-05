@@ -9,4 +9,6 @@ install:
  - export PATH=$PATH:$PWD/go_appengine/
 
 script:
+ - goapp get code.google.com/p/google-api-go-client/googleapi/transport
+ - goapp get code.google.com/p/google-api-go-client/plus/v1
  - goapp test
