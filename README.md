@@ -1,3 +1,9 @@
+![status: inactive](https://img.shields.io/badge/status-inactive-red.svg)
+
+This project is no longer actively developed or maintained.  
+
+For more information about App Engine, refer to our [documentation](https://cloud.google.com/appengine).
+
 # appengine-goplus
 
 `goplus` is a sample application with a simple purpose: displaying the most
